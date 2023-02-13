@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.card {
+    background-color: white;
+    width: 19rem;
+    display: flex;
+    padding: 0.8em;
+    flex-direction: column;
+    border-radius: 1em;
+    box-shadow: 10rem;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 0.6em;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.content {
+    padding: 14px;
+}
+
+.attribution {
+    margin-top: 10rem;
+}
+
